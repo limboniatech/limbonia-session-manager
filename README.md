@@ -1,5 +1,14 @@
-# limbonia
-This repository contains all Limbonia code that hasn't been / can't be broken out into sub-projects
+# limbonia-session-mamager
+Manage PHP sessions safely...  Including session locking and spoof prevention.
 
-## TODO
-Write out the rest of the documentation...
+## Installation
+composer require limboniatech/limbonia-session-manager
+
+## Usage
+
+```php
+<?php
+require 'vendor/autoload.php';
+
+Limbonia\SessionManager::start();
+```

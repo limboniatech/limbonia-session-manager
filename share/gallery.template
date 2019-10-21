@@ -1,8 +1,0 @@
-<html>
-<head>
-  <title>Default Limbonia Gallery Popup Template</title>
-</head>
-<body>
-<limbonia-target type="gallery" component="popup"/>
-</body>
-</html>

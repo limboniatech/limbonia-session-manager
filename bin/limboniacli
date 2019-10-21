@@ -1,7 +1,0 @@
-#!/usr/bin/php
-<?php
-require_once __DIR__ . '/../lib/autoloader.php';
-ignore_user_abort(true);
-
-$oController = \Limbonia\Controller::factory();
-$oController->run();

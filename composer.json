@@ -1,20 +1,20 @@
 {
-    "name": "limbonia/limbonia",
-    "description": "This is the Limbonia Code Library",
+    "name": "limboniatech/limbonia-session-mamager",
+    "description": "This is the Limbonia session management library",
     "type": "library",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Lonnie Blansett",
-            "email": "lonnie@limbonia.com"
+            "email": "lonnie@limbonia.tech"
         }
     ],
-    "require": {},
-    "autoload": {
-        "classmap": [
-            "lib/"
-        ]
+    "require": {
+        "php": "^7.1"
     },
-    "require-dev": {
-        "phpunit/phpunit": "^6"
+    "autoload": {
+        "psr-4": {
+            "Limbonia\\": "lib/"
+        }
     }
 }
