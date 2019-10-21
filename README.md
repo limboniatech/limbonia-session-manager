@@ -1,4 +1,4 @@
-# limbonia-session-mamager
+# limbonia-session-manager
 Manage PHP sessions safely...  Including session locking and spoof prevention.
 
 ## Installation
