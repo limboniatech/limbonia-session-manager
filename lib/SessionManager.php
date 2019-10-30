@@ -140,7 +140,7 @@ class SessionManager
       return $sUserAgent;
     }
 
-    if (Controller::isCLI())
+    if (Util::isCLI())
     {
       //then this is a local server call running from command line
       return 'Server_CLI';
@@ -157,7 +157,7 @@ class SessionManager
    */
   public static function address()
   {
-    if (!Controller::isCLI())
+    if (!Util::isCLI())
     {
       //otherwise return the remote address
       $sAddress = filter_input(INPUT_SERVER, 'REMOTE_ADDR');
