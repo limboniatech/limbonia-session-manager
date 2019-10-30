@@ -17,6 +17,6 @@
         "psr-4": {
             "Limbonia\\": "lib/"
         },
-        "files": ["lib/autoloader.php"]
+        "files": ["autoloader.php"]
     }
 }
